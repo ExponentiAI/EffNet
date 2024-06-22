@@ -142,3 +142,21 @@ python FG_SBIR.py
 
 
 <br>
+
+## 3. Reference
+If you find our code or dataset is useful for your research, please cite us, Thanks.
+```yaml
+@article{jiang2024simple,
+  title={Simple Yet Efficient: Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment},
+  author={Jiang, Jianan and Wu, Di and Jiang, Zhilin and Yu, Weiren},
+  journal={arXiv preprint arXiv:2406.11551},
+  year={2024}
+}
+```
+
+Or
+
+```yaml
+Jiang J, Wu D, Jiang Z, et al. Simple Yet Efficient: Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment[J]. arXiv preprint arXiv:2406.11551, 2024.
+```
+
