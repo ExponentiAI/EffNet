@@ -1,11 +1,9 @@
 # EffNet
 Simple Yet Efficient: Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment [**[arXiv]**](https://arxiv.org/pdf/2406.11551)
 
-<!-- <br> -->
+Thank you for your attention, we will update our latest version soon ~
 
-<!-- Thank you for your attention, we will update soon ~ -->
-
-<!-- <be> -->
+<br>
 
 ## 1. Introduction
 
@@ -94,11 +92,11 @@ python FG_SBIR.py
 | Semi-Sup (CVPR 2021) | 60.20 | 78.10 | 90.81 | 39.10 | 69.90 | **87.50** | - | - | - |
 | StyleMeUp (CVPR 2021) | 62.86 | 79.60 | 91.14 | 36.47 | 68.10 | 81.83 | - | - | - |
 | Adpt-SBIR (ECCV 2022) | - | - | - | 38.30 | **76.60** | - | - | - | - |
-| Part-SBIR (CVPR 2022) | - | - | - | 39.90 | - | 82.90 | - | - | - |
+| Part-SBIR (CVPR 2022) | 63.30 | 79.70 | - | 39.90 | 68.20 | 82.90 | - | - | - |
 | NT-SBIR (CVPR 2022) | 64.80 | 79.10 | - | 43.70 | 74.90 | - | - | - | - |
-| EUPS-SBIR (CVPR 2023) | 71.22 | - | 92.18 | **44.18** | - | 84.68 | - | - | - |
+| EUPS-SBIR (CVPR 2023) | 71.22 | 80.10 | 92.18 | **44.18** | 70.80 | 84.68 | - | - | - |
 | **EffNet(Ours)** | **73.31** | **93.24** | **97.15** | **40.11** | **67.54** | **79.29** | **94.12** | **98.91** | **99.27**  |
-| **EffNet+TRSM(Ours)** | **74.28** | **93.89** | **97.43** | **39.94** | **71.47** | **82.88** | **94.91** | **98.91** | **99.91**  |
+| **EffNet+TRSM(Ours)** | **75.45** | **94.66** | **97.87** | **42.91** | **72.95** | **81.72** | **95.27** | **98.55** | **99.27**  |
 
 </div>
 
