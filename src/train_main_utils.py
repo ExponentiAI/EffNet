@@ -1,6 +1,8 @@
 """
 Acknowledgements:
 1. https://github.com/lucidrains/vit-pytorch/blob/main/vit_pytorch/vit.py
+2. https://github.com/sthalles/SimCLR/blob/master/simclr.py
+3. https://github.com/facebookresearch/moco-v3/blob/main/main_moco.py
 """
 
 import os
