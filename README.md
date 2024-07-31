@@ -1,5 +1,7 @@
 # FG-SBIR
 
+For more experimental details please refer to our appendix material, thanks.
+
 We will update our full codes soon ~
 
 ## 1. Introduction
@@ -10,7 +12,7 @@ We will update our full codes soon ~
 
 <br>
 
-<div align=center><img src="./figs/acc.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/acc.png" width = 90%></div>
 
 <br>
 
@@ -18,7 +20,7 @@ Our pre-trained model is avialable [**EffNet Weights**](https://drive.google.com
 
 ### 1.2 Clothes-V1
 
-<div align=center><img src="./figs/dataset.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/dataset.png" width = 90%></div>
 
 <br>
 
@@ -103,15 +105,15 @@ python FG_SBIR.py
 
 #### 3.1.1 On QMUL-Shoe-V2
 
-<div align=center><img src="./figs/Re_Shoe.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Shoe.png" width = 90%></div>
 
 #### 3.1.2 On QMUL-Chair-V2
 
-<div align=center><img src="./figs/Re_Chair.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Chair.png" width = 90%></div>
 
 #### 3.1.3 On Clothes-V1
 
-<div align=center><img src="./figs/Re_Clothes.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Clothes.png" width = 90%></div>
 
 
 
@@ -119,21 +121,22 @@ python FG_SBIR.py
 
 #### 3.2.1 On QMUL-Shoe-V2
 
-<div align=center><img src="./figs/TSNE_Shoe.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/TSNE_Shoe.png" width = 90%></div>
 
 #### 3.2.2 On QMUL-Chair-V2
 
-<div align=center><img src="./figs/TSNE_Chair.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/TSNE_Chair.png" width = 90%></div>
 
 #### 3.2.3 On Clothes-V1
 
-<div align=center><img src="./figs/TSNE_Clothes.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/TSNE_Clothes.png" width = 90%></div>
 
 
 
 ### 3.3 Average Attention Distance
 
-<div align=center><img src="./figs/distance.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/distance.png" width = 90%></div>
 
+<be>
 <br>
 
