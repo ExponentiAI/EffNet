@@ -1,8 +1,6 @@
-# EffNet
+# FG-SBIR
 
 We will update our full codes soon ~
-
-<br>
 
 ## 1. Introduction
 
