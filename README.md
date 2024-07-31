@@ -14,7 +14,7 @@ Our pre-trained model is avialable [**EffNet Weights**](https://drive.google.com
 
 <br>
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/acc.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/acc.png" width = 66%></div>
 
 <br>
 
@@ -113,15 +113,15 @@ python FG_SBIR.py
 
 #### 3.1.1 On QMUL-Shoe-V2
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Shoe.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Shoe.png" width = 60%></div>
 
 #### 3.1.2 On QMUL-Chair-V2
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Chair.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Chair.png" width = 60%></div>
 
 #### 3.1.3 On Clothes-V1
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Clothes.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Clothes.png" width = 60%></div>
 
 
 
@@ -143,7 +143,7 @@ python FG_SBIR.py
 
 ### 3.3 Average Attention Distance
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/distance.png" width = 90%></div>
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/distance.png" width = 80%></div>
 
 <be>
 <br>
