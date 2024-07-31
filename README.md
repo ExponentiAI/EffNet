@@ -1,7 +1,6 @@
 # EffNet
-Simple Yet Efficient: Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment [**[arXiv]**](https://arxiv.org/pdf/2406.11551)
 
-Thank you for your attention, we will update our latest version soon ~
+We will update our full codes soon ~
 
 <br>
 
@@ -94,7 +93,7 @@ python FG_SBIR.py
 | Adpt-SBIR (ECCV 2022) | - | - | - | 38.30 | **76.60** | - | - | - | - |
 | Part-SBIR (CVPR 2022) | 63.30 | 79.70 | - | 39.90 | 68.20 | 82.90 | - | - | - |
 | NT-SBIR (CVPR 2022) | 64.80 | 79.10 | - | 43.70 | 74.90 | - | - | - | - |
-| EUPS-SBIR (CVPR 2023) | 71.22 | 80.10 | 92.18 | **44.18** | 70.80 | 84.68 | - | - | - |
+| EUPS-SBIR (CVPR 2023) | 71.22 | 80.10 | 92.18 | **44.18** | 70.80 | 84.68 | 89.47 | 94.73 | 97.36 |
 | **EffNet(Ours)** | **73.31** | **93.24** | **97.15** | **40.11** | **67.54** | **79.29** | **94.12** | **98.91** | **99.27**  |
 | **EffNet+TRSM(Ours)** | **75.45** | **94.66** | **97.87** | **42.91** | **72.95** | **81.72** | **95.27** | **98.55** | **99.27**  |
 
@@ -138,23 +137,5 @@ python FG_SBIR.py
 
 <div align=center><img src="./figs/distance.png" width = 90%></div>
 
-
 <br>
-
-## 3. Reference
-If you find our code or dataset is useful for your research, please cite us, Thanks.
-```yaml
-@article{jiang2024simple,
-  title={Simple Yet Efficient: Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment},
-  author={Jiang, Jianan and Wu, Di and Jiang, Zhilin and Yu, Weiren},
-  journal={arXiv preprint arXiv:2406.11551},
-  year={2024}
-}
-```
-
-Or
-
-```yaml
-Jiang J, Wu D, Jiang Z, et al. Simple Yet Efficient: Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment[J]. arXiv preprint arXiv:2406.11551, 2024.
-```
 
