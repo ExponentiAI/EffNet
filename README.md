@@ -8,6 +8,8 @@ We will update our full codes soon ~
 
 ### 1.1 Framework
 
+Our pre-trained model is avialable [**EffNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
+
 #### 1.1.1 How to keep training ? 
 
 <br>
@@ -16,7 +18,13 @@ We will update our full codes soon ~
 
 <br>
 
-Our pre-trained model is avialable [**EffNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
+#### 1.1.2 Are Discarded Patch Tokens Useless?
+
+<br>
+
+<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/var.png" width = 50%></div>
+
+<br>
 
 ### 1.2 Clothes-V1
 
