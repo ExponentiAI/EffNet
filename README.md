@@ -8,9 +8,9 @@ We will update our full codes soon ~
 
 ### 1.1 Framework
 
-Our pre-trained model is avialable [**EffNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
+Our pre-trained model is available [**EffNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
 
-#### 1.1.1 How to keep training ? 
+#### 1.1.1 How to keep training? 
 
 <br>
 
