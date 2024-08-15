@@ -2,13 +2,13 @@
 
 For more experimental details please refer to our appendix material, thanks.
 
-We will update our full codes soon ~
+We will continue to update our codes soon ~
 
 ## 1. Introduction
 
 ### 1.1 Framework
 
-Our pre-trained model is available [**EffNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
+Our pre-trained model is available [**ARNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
 
 #### 1.1.1 How to keep training? 
 
