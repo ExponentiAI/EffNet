@@ -1,34 +1,35 @@
 # FG-SBIR
+Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment and Multi-Scale Token Recycling [**[arXiv]**](https://arxiv.org/pdf/2406.11551)
 
-For more experimental details please refer to our appendix material, thanks.
+Accepted by AAAI 2025. Thank you for your attention, we will update our latest version soon ~
 
-We will continue to update our codes soon ~
+You can train and test with our basic model, which is a straightforward methodology.
 
 ## 1. Introduction
 
 ### 1.1 Framework
 
-Our pre-trained model is available [**ARNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
+Our pre-trained model is available [**EffNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
 
 #### 1.1.1 How to keep training? 
 
 <br>
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/acc.png" width = 66%></div>
+<div align=center><img src="./figs/acc.png" width = 60%></div>
 
-<br>
+<be>
 
 #### 1.1.2 Are Discarded Patch Tokens Useless?
 
 <br>
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/var.png" width = 50%></div>
+<div align=center><img src="./figs/var.png" width = 50%></div>
 
 <br>
 
 ### 1.2 Clothes-V1
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/dataset.png" width = 90%></div>
+<div align=center><img src="./figs/dataset.png" width = 80%></div>
 
 <br>
 
@@ -84,26 +85,38 @@ python FG_SBIR.py
 
 ## 2. Experimental Results
 
-### 2.1 QMUL-Chair-V2 vs. QMUL-Shoe-V2 vs. Clothes-V1
+### 2.1 On our Clothes-V1 dataset
+
+| Methods | Acc.@1 | Acc.@5 | Acc.@10 |
+|:--------:|:--------:|:--------:|:--------:|
+| Triplet-SN (CVPR 2016) | 64.36 | 85.82 | 92.73 |
+| Triplet-Att-SN (ICCV 2017) | 70.18 | 83.64 | 91.64 |
+| B-Siamese (BMVC 2020) | 84.73 | 97.82 | **99.27** | 
+| OnTheFly (CVPR 2020) | 63.27 | 90.18 | 92.73 |
+| EUPS-SBIR (CVPR 2023) | 89.47 | 94.73 | 97.36 |
+| **ARNet Basic** | **94.12** | **98.91** | **99.27**  |
+| **ARNet+MSTR (Full)** | **95.27** | **98.55** | **99.27**  |
+
+### 2.2 On QMUL-Chair-V2 and QMUL-Shoe-V2 datasets
 
 <div align=left>
 
-| Methods | Acc.@1 | Acc.@5 | Acc.@10 | Acc.@1 | Acc.@5 | Acc.@10 | Acc.@1 | Acc.@5 | Acc.@10 |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| Triplet-SN (CVPR 2016) | 33.75 | 65.94 | 79.26 | 18.62 | 43.09 | 59.31 | 64.36 | 85.82 | 92.73 |
-| Triplet-Att-SN (ICCV 2017) | 37.15 | 67.80 | 82.97 | 22.67 | 51.20 | 65.02 | 70.18 | 83.64 | 91.64 |
-| B-Siamese (BMVC 2020) | 40.56 | 71.83 | 85.76 | 20.12 | 48.95 | 63.81 | 84.73 | 97.82 | **99.27** | 
-| CMHM-SBIR (BMVC 2020) | 51.70 | 80.50 | 88.85 | 29.28 | 59.76 | 74.62 | - | - | - |
-| OnTheFly (CVPR 2020) | 39.01 | 75.85 | 87.00 | 35.91 | 66.78 | 78.54 | 63.27 | 90.18 | 92.73 |
-| SketchAA (ICCV 2021) | 52.89 | - | 94.88 | 32.22 | - | 79.63 | - | - | - |
-| Semi-Sup (CVPR 2021) | 60.20 | 78.10 | 90.81 | 39.10 | 69.90 | **87.50** | - | - | - |
-| StyleMeUp (CVPR 2021) | 62.86 | 79.60 | 91.14 | 36.47 | 68.10 | 81.83 | - | - | - |
-| Adpt-SBIR (ECCV 2022) | - | - | - | 38.30 | **76.60** | - | - | - | - |
-| Part-SBIR (CVPR 2022) | 63.30 | 79.70 | - | 39.90 | 68.20 | 82.90 | - | - | - |
-| NT-SBIR (CVPR 2022) | 64.80 | 79.10 | - | 43.70 | 74.90 | - | - | - | - |
-| EUPS-SBIR (CVPR 2023) | 71.22 | 80.10 | 92.18 | **44.18** | 70.80 | 84.68 | 89.47 | 94.73 | 97.36 |
-| **EffNet(Ours)** | **73.31** | **93.24** | **97.15** | **40.11** | **67.54** | **79.29** | **94.12** | **98.91** | **99.27**  |
-| **EffNet+TRSM(Ours)** | **75.45** | **94.66** | **97.87** | **42.91** | **72.95** | **81.72** | **95.27** | **98.55** | **99.27**  |
+| Methods | Acc.@1 | Acc.@5 | Acc.@10 | Acc.@1 | Acc.@5 | Acc.@10 |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Triplet-SN (CVPR 2016) | 33.75 | 65.94 | 79.26 | 18.62 | 43.09 | 59.31 |
+| Triplet-Att-SN (ICCV 2017) | 37.15 | 67.80 | 82.97 | 22.67 | 51.20 | 65.02 |
+| B-Siamese (BMVC 2020) | 40.56 | 71.83 | 85.76 | 20.12 | 48.95 | 63.81 |
+| CMHM-SBIR (BMVC 2020) | 51.70 | 80.50 | 88.85 | 29.28 | 59.76 | 74.62 |
+| OnTheFly (CVPR 2020) | 39.01 | 75.85 | 87.00 | 35.91 | 66.78 | 78.54 |
+| SketchAA (ICCV 2021) | 52.89 | - | 94.88 | 32.22 | - | 79.63 |
+| Semi-Sup (CVPR 2021) | 60.20 | 78.10 | 90.81 | 39.10 | 69.90 | **87.50** |
+| StyleMeUp (CVPR 2021) | 62.86 | 79.60 | 91.14 | 36.47 | 68.10 | 81.83 |
+| Adpt-SBIR (ECCV 2022) | - | - | - | 38.30 | **76.60** | - |
+| Part-SBIR (CVPR 2022) | 63.30 | 79.70 | - | 39.90 | 68.20 | 82.90 |
+| NT-SBIR (CVPR 2022) | 64.80 | 79.10 | - | 43.70 | 74.90 | - |
+| EUPS-SBIR (CVPR 2023) | 71.22 | 80.10 | 92.18 | **44.18** | 70.80 | 84.68 |
+| **ARNet Basic** | **73.31** | **93.24** | **97.15** | 40.11 | 67.54 | 79.29 |
+| **ARNet+MSTR (Full)** | **75.45** | **94.66** | **97.87** | 42.91 | 72.95 | 81.72 |
 
 </div>
 
@@ -113,15 +126,15 @@ python FG_SBIR.py
 
 #### 3.1.1 On QMUL-Shoe-V2
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Shoe.png" width = 60%></div>
+<div align=left><img src="./figs/Re_Shoe.png" width = 50%></div>
 
 #### 3.1.2 On QMUL-Chair-V2
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Chair.png" width = 60%></div>
+<div align=left><img src="./figs/Re_Chair.png" width = 50%></div>
 
 #### 3.1.3 On Clothes-V1
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/Re_Clothes.png" width = 60%></div>
+<div align=left><img src="./figs/Re_Clothes.png" width = 50%></div>
 
 
 
@@ -129,22 +142,35 @@ python FG_SBIR.py
 
 #### 3.2.1 On QMUL-Shoe-V2
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/TSNE_Shoe.png" width = 90%></div>
+<div align=left><img src="./figs/TSNE_Shoe.png" width = 60%></div>
 
 #### 3.2.2 On QMUL-Chair-V2
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/TSNE_Chair.png" width = 90%></div>
+<div align=left><img src="./figs/TSNE_Chair.png" width = 60%></div>
 
 #### 3.2.3 On Clothes-V1
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/TSNE_Clothes.png" width = 90%></div>
+<div align=left><img src="./figs/TSNE_Clothes.png" width = 60%></div>
 
 
 
 ### 3.3 Average Attention Distance
 
-<div align=center><img src="https://anonymous.4open.science/r/ARNet/figs/distance.png" width = 80%></div>
+<div align=left><img src="./figs/distance.png" width = 66%></div>
 
-<be>
+
 <br>
 
+## 3. Reference
+If you find our code or dataset useful for your research, please cite our work. Thank you. 🥰🥰
+```yaml
+@article{jiang2024simple,
+  title={Simple Yet Efficient: Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment},
+  author={Jiang, Jianan and Wu, Di and Jiang, Zhilin and Yu, Weiren},
+  journal={arXiv preprint arXiv:2406.11551},
+  year={2024}
+}
+```
+
+<br>
+<br>
